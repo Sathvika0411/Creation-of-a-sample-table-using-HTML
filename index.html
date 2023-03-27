@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <body>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            table,th,td{
+                border :1px solid black;
+
+            }
+
+            th
+{
+    height:50px;
+    background-color: light green;
+    color:rgb(193, 26, 101)
+
+}
+td
+{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    background-color: #85FFBD;
+background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+}
+        </style>
+        <title>TABLE</title>
+        
+        
+    </head>
+    <body>
+        <table style="width:50%" cell padding="10" cell spacing="4" bordercolor="brown" align="center">
+        <tr>
+            <th colspan="4" style="font-size: 40px;color: #f30808;font-family:'Times New Roman', Times, serif;background-color: pink;" >PURCHASED ITEMS</th>
+        </tr>
+
+    <tr>
+        <th style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-size: 20px;background-color:#90EE90">CATEGORY</th>
+        <th style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-size: 20px;background-color:#90EE90">ITEM NAME</th>
+        <th style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-size: 20px;background-color:#90EE90">IMAGE</th>
+        <th style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-size: 20px;background-color:#90EE90">USES OF AN ITEM</th>
+    </tr>
+    
+    <tr style="background-color: white;">
+        <td rowspan="2" style="color: rgb(16, 61, 240);"><center><b>FRUITS</b></center></td>
+        <td>APPLE</td>
+        <td><img src="https://www.shutterstock.com/image-photo/red-apple-isolated-on-white-260nw-1727544364.jpg" alt=" " width="100" height="100"</img></td>
+        <td>Could be good for heart</td>
+    </tr>
+    <tr style="background-color: white;">
+        <td>ORANGE</td>
+        <td><img src="https://thumbs.dreamstime.com/b/sliced-orange-fruit-leaves-isolated-white-23331258.jpg" alt=" "width="100" height="100"</img></td>
+        <td>Protects skin from damage</td>
+    </tr>
+    <tr style="background-color: white;">
+        <td rowspan="2" style="color: rgb(16, 61, 240)"><b>VEGETABLES</b></td>
+        <td>BRINJAL</td>
+        <td><img src="https://smartyield.in/wp-content/uploads/2021/06/Big-brinjal-eggplant.png" alt=" "width="100" height="100"</img></td>
+        <td>Lower the risk of many heart diseases</td>
+    </tr>
+    <tr style="background-color: white;">
+        <td>CAULIFLOWER</td>
+        <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBJ8xDQCguZOvSi7JJu7Dq52A875FvrJdIRpPNpFTw&s" alt=" "width=100" height="100"</img></td>
+        <td>Helpful in curing diabetes</td>
+
+    </tr>
+    <tr style="background-color: white;">
+        <td rowspan="2" style="color: rgb(16, 61, 240)"><b>DRY FRUITS</b></td>
+        <td>CASHEW</td>
+        <td><img src="data:image/jpeg;base64,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"alt=" "width="100" height="100"</img></td>
+        <td>Helpful in curing gastrointestinal diseases</td>
+    </tr>
+    <tr style="background-color: white;">
+        <td>PISTA</td>
+        <td><img src="https://static-bebeautiful-in.unileverservices.com/1200/900/14-Pistachio-Benefits-that-Prove-this-is-the-Best-Snack-Ever_mobilehome.jpg" alt=" "width="100" height="100"</img></td>
+        <td>Helps to keep your blood sugar, blood pressure, and cholesterol in check</td>
+    </tr>
+
+
+</table>
+        
+    </body>
+</html>
